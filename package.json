@@ -7,6 +7,7 @@
     "android:app": "turbo run android:app",
     "ios:app": "turbo run ios:app",
     "expo:android": "turbo run android",
+    "build": "turbo run build",
     "expo:ios": "turbo run ios",
     "start": "pnpm start",
     "lint": "pnpm lint"

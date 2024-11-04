@@ -1,4 +1,5 @@
 import "expo-dev-client";
+import * as SmsRead from "@avi98/sms-read";
 import { StatusBar } from "expo-status-bar";
 
 import { StyleSheet, Text, View } from "react-native";
@@ -7,6 +8,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your appAA!</Text>
+      <Text>{SmsRead.hello()}</Text>
       <StatusBar style="auto" />
     </View>
   );

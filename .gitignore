@@ -12,6 +12,11 @@
 /.next/
 /out/
 
+# expo
+.expo/
+android
+ios
+
 # production
 /build
 

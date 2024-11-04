@@ -6,12 +6,15 @@
     "dev": "next dev --turbo",
     "android:app": "turbo run android:app",
     "ios:app": "turbo run ios:app",
+    "expo:android": "turbo run android",
+    "expo:ios": "turbo run ios",
     "start": "pnpm start",
     "lint": "pnpm lint"
   },
-  "dependencies": {
-    "react": "^18.2.0"
-  },
+  "workspaces": [
+    "app/*",
+    "packages/*"
+  ],
   "devDependencies": {
     "@types/node": "^20.11.24",
     "@types/react": "^18.2.61",

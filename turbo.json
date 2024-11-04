@@ -15,6 +15,14 @@
       "dependsOn": ["^build"],
       "outputs": ["ios/**"]
     },
+    "android": {
+      "cache": false,
+      "dependsOn": ["^build"]
+    },
+    "ios": {
+      "cache": false,
+      "dependsOn": ["^build"]
+    },
     "lint": {},
     "dev": {
       "cache": false,
